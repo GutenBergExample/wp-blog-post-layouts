@@ -124,15 +124,13 @@ class Wpblog_Post_Layouts_List_Element extends \Elementor\Widget_Base {
             ]
         );
 
-        $posttype = 'post';
-
         $this->add_control(
             'postCategory',
             [
                 'label' => esc_html__( 'Category', 'wp-blog-post-layouts' ),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'default' => '',
-                'options' => $this->cv_get_categories( $posttype )
+                'options' => $this->cv_get_categories( 'post' )
             ]
         );
 

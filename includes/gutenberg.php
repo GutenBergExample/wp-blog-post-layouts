@@ -3,6 +3,9 @@
  * Handles the internationalization, admin-specific hooks, and
  * public-facing site hooks.
  * 
+ * @since 1.0.0
+ * @package WP Blog Post Layouts
+ * 
  */
 if( !class_exists( 'Wpblog_Post_Layouts_Blocks' ) ):
     class Wpblog_Post_Layouts_Blocks {

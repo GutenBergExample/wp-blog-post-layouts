@@ -4,7 +4,7 @@ Tags:               gutenberg-blocks, grid, post layouts, elementor, bloc
 Requires at least:  4.6
 Tested up to:       5.4
 Requires PHP:       5.2.4
-Stable tag:         1.0.2
+Stable tag:         1.0.3
 License:            GNU General Public License v3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -106,14 +106,17 @@ Yes, this plugin comes with a flexible and customizable typography option
 
 
 == Changelog ==
-    
+    = 1.0.3 = - July 14, 2020
+        * Fixed - elementor posttype undeclared variable  issue fixed.
+		* Added - missing deactivation variable added.
+
     = 1.0.2 = - June 25, 2020
         * Fixed - limited category select issue in Gutenberg editor.
         * Added - added "post-counts" in category select "label" field in Gutenberg editor and elementor element option.
         * Changes - premium features listing added.
         * Fixed - false text-domain fixes
     
-    = 1.0. 1 = - May 08, 2020
+    = 1.0.1 = - May 08, 2020
         * Added short description to the plugin.
         * Review link added in the admin page.
         * Plugin review admin notice added.

@@ -4,6 +4,8 @@
  * 
  * Handles the admin-specific hooks and functions.
  * 
+ * @since 1.0.0
+ * @package WP Blog Post Layouts
  */
 if( !class_exists( 'Wpblog_Post_Layouts_Admin' ) ):
     class Wpblog_Post_Layouts_Admin {
@@ -56,7 +58,7 @@ if( !class_exists( 'Wpblog_Post_Layouts_Admin' ) ):
             if ( defined( 'WPBLOG_POST_LAYOUTS_VERSION' ) ) {
                 $this->version = WPBLOG_POST_LAYOUTS_VERSION;
             } else {
-                $this->version = '1.0.2';
+                $this->version = '1.0.3';
             }
             $this->plugin_name = 'wp-blog-post-layouts';
 
@@ -175,6 +177,7 @@ if( !class_exists( 'Wpblog_Post_Layouts_Admin' ) ):
                             <li><?php esc_html_e( '5 Block Columns', 'wp-blog-post-layouts' ); ?></li>
                             <li><?php esc_html_e( '5 Block Title Layout', 'wp-blog-post-layouts' ); ?></li>
                             <li><?php esc_html_e( 'Color Options', 'wp-blog-post-layouts' ); ?></li>
+                            <li><?php esc_html_e( 'Pagination Settings', 'wp-blog-post-layouts' ); ?></li>
                             <li><?php esc_html_e( 'Fallback Image Option', 'wp-blog-post-layouts' ); ?></li>
                             <li><?php esc_html_e( 'Element Sorting', 'wp-blog-post-layouts' ); ?></li>
                             <li><?php esc_html_e( 'Numerous Google Fonts', 'wp-blog-post-layouts' ); ?></li>

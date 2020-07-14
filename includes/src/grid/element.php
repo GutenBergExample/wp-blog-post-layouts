@@ -124,15 +124,13 @@ class Wpblog_Post_Layouts_Grid_Element extends \Elementor\Widget_Base {
             ]
         );
 
-        $posttype = 'post';
-
         $this->add_control(
             'postCategory',
             [
                 'label' => esc_html__( 'Category', 'wp-blog-post-layouts' ),
                 'type' => \Elementor\Controls_Manager::SELECT,
                 'default' => '',
-                'options' => $this->cv_get_categories( $posttype )
+                'options' => $this->cv_get_categories( 'post' )
             ]
         );
 
@@ -1127,6 +1125,7 @@ class Wpblog_Post_Layouts_Grid_Element extends \Elementor\Widget_Base {
         $postFormatIcon = ( $postFormatIcon === 'show' );
         $postButtonIcon = ( $postButtonIcon === 'show' );
         $postMargin = ( $postMargin === 'show' );
+        $posttype = 'post';
 
         echo '<div id="cv-grid-post-layout" class="block-'.esc_html( $element_id ).' cv-block cv-block-grid--'.esc_html( $layoutOption ).'">';
             if( !empty( $blockTitle ) ) {

@@ -2,11 +2,15 @@
 /**
  * Defines the plugin class exucutes when plugin is activated.
  * 
+ * @since 1.0.0
+ * @package WP Blog Post Layouts
  * 
  */
 if( !class_exists( 'Wpblog_Post_Layouts_Activator' ) ):
     class Wpblog_Post_Layouts_Activator {
         /**
+         * Called by plugin activation hook.
+         * 
          * @access public static
          */
         public static function activate() {

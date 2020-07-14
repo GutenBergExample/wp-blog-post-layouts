@@ -1,6 +1,10 @@
 <?php
 /**
  * Add dynamic css for each block;
+ *
+ * @since 1.0.0
+ * @package WP Blog Post Layouts
+ * 
  */
 if( !class_exists( 'Wpblog_Post_Layouts_Dynamic_Css' ) ):
     class Wpblog_Post_Layouts_Dynamic_Css {

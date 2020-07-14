@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       WP Blog Post Layouts
  * Description:       Versatile plugin specially designed to create beautiful posts layouts. Fully compatible with Gutenberg and Elementor. Comes with advanced features such as multiple archive layout types, typography option and so on.
- * Version:           1.0.2
+ * Version:           1.0.3
  * Author:            CodeVibrant
  * Author URI:        http://codevibrant.com/
  * License:           GNU General Public License v3 or later
@@ -22,7 +22,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Current plugin version.
  */
 define( 'WPBLOG_POST_LAYOUTS', 'WP Blog Post Layouts' );
-define( 'WPBLOG_POST_LAYOUTS_VERSION', '1.0.2' );
+define( 'WPBLOG_POST_LAYOUTS_VERSION', '1.0.3' );
 define( 'WPBLOG_POST_LAYOUTS_PATH', plugin_dir_path( __FILE__ ) );
 
 /**

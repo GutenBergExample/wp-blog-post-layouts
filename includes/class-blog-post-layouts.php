@@ -5,6 +5,8 @@
  * Handles the internationalization, admin-specific hooks, and
  * public-facing site hooks.
  * 
+* @since 1.0.0
+ * @package WP Blog Post Layouts
  */
 if( !class_exists( 'Wpblog_Post_Layouts' ) ):
     class Wpblog_Post_Layouts {
@@ -54,7 +56,7 @@ if( !class_exists( 'Wpblog_Post_Layouts' ) ):
             if ( defined( 'WPBLOG_POST_LAYOUTS_VERSION' ) ) {
                 $this->version = WPBLOG_POST_LAYOUTS_VERSION;
             } else {
-                $this->version = '1.0.2';
+                $this->version = '1.0.3';
             }
 
             $this->plugin_name = 'wp-blog-post-layouts';
